@@ -95,5 +95,6 @@ describe('instructorHeight', () => {
   
   it(`should return "I don't know that instructor!" given any other argument.`, () => {
     expect(instructorHeight('Anthony')).toBe(`I don't know that instructor!`);
+    expect(instructorHeight('JD')).toBe(`I don't know that instructor!`);
   })
 })
